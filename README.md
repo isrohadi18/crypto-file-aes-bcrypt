@@ -40,71 +40,45 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 
 > ### **Library**
 
-  <img src="https://img.shields.io/badge/commons--collections-4--4.4-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/commons--compress-1.21-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/itextpdf-5.5.13.2-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/jbcrypt-0.4-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/jcommon-1.0.16-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/jfreechart-1.5.0-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/log4j--api-2.13.3-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/log4j--core-2.13.3-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/mysql--connector--j-8.4.0-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/ooxml--schemas-1.4-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/poi-5.0.0-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/poi--ooxml-5.0.0-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/poi--ooxml--full-5.2.3-darkgrey?style=plasic" />
-  <img src="https://img.shields.io/badge/xmlbeans-5.1.1-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/commons--collections-4--4.4-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/commons--compress-1.21-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/itextpdf-5.5.13.2-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/jbcrypt-0.4-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/jcommon-1.0.16-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/jfreechart-1.5.0-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/log4j--api-2.13.3-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/log4j--core-2.13.3-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/mysql--connector--j-8.4.0-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/ooxml--schemas-1.4-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/poi-5.0.0-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/poi--ooxml-5.0.0-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/poi--ooxml--full-5.2.3-darkgrey?style=plasic" />
+<img src="https://img.shields.io/badge/xmlbeans-5.1.1-darkgrey?style=plasic" />
 
 ---
 
 > ### **Tampilan Aplikasi**
 
-| Fitur           | fungsi | Preview                                        |
-| --------------- | ------ | ---------------------------------------------- |
-| Login           |        | <img src="src/assets/frame/login.svg" />       |
-| Register        |        | <img src="src/assets/frame/register.svg" />    |
-| Dashboard User  |        | <img src="src/assets/frame/menutama.svg" />    |
-| Admin Panel     |        | <img src="src/assets/frame/muser.svg" />       |
-| Logo / Branding |        | <img src="src/assets/frame/performasta.svg" /> |
-| Logo / Branding |        | <img src="src/assets/frame/grafiksta.svg" />   |
-
-> 📌 Gambar dapat dilihat langsung pada folder `src/assets/`
+| Fitur                   | Preview                                        |
+| ----------------------- | ---------------------------------------------- |
+| Login                   | <img src="src/assets/frame/login.svg" />       |
+| Register                | <img src="src/assets/frame/register.svg" />    |
+| Menu Utama              | <img src="src/assets/frame/menutama.svg" />    |
+| Manajement User         | <img src="src/assets/frame/muser.svg" />       |
+| Statistik performa File | <img src="src/assets/frame/performasta.svg" /> |
+| Grafik File Aes         | <img src="src/assets/frame/grafiksta.svg" />   |
 
 ---
 
-## 📂 Struktur Folder Utama
+> ### **Alur Menjalankan Aplikasi**
 
-```
-crypto-file-aes-bcrypt-main/
-│
-├── src/
-│   ├── aes/              # Utilitas AES
-│   ├── controller/       # Logic aplikasi
-│   ├── view/             # Tampilan GUI (Swing)
-│   ├── config/           # Koneksi database
-│   └── assets/           # Gambar & asset UI
-│
-├── lib/                  # Library (.jar)
-├── sample/               # File uji coba
-├── hasil_pengujian/      # Grafik & log hasil tes
-├── file_encrypt/         # Output file terenkripsi
-├── file_decrypt/         # Output file dekripsi
-├── kriptografi_db.sql    # Struktur database
-└── README.md
-```
+#### 1️⃣ **Persiapan Software**
 
----
+- Install _Java JDK 8_ atau lebih baru
+- Install Apache _NetBeans IDE_
+- Install _MySQL_ Server
 
-## ⚙️ Cara Menjalankan Aplikasi (Step-by-Step)
-
-### 1️⃣ Persiapan Environment
-
-- Install **Java JDK 8 atau lebih baru**
-- Install **MySQL Server**
-
----
-
-### 2️⃣ Setup Database
+#### 2️⃣ **Setup Database**
 
 1. Buat database di MySQL
 2. Import file berikut:
@@ -119,30 +93,17 @@ crypto-file-aes-bcrypt-main/
    src/config/DatabaseConnection.java
    ```
 
----
+#### 3️⃣ **Jalankan Aplikasi**
 
-### 3️⃣ Jalankan Aplikasi
-
-#### Opsi A – Menggunakan IDE (Disarankan)
-
-- Buka project menggunakan **IntelliJ IDEA / NetBeans / Eclipse**
-- Tambahkan seluruh file `.jar` di folder `lib/` ke **Build Path**
+- Buka project menggunakan _IntelliJ IDEA / NetBeans / Eclipse_
+- Tambahkan seluruh file `.jar` di folder `lib/` ke _Build Path_
 - Jalankan file utama:
 
   ```
   src/view/LoginRegisterFrame.java
   ```
 
-#### Opsi B – Compile Manual (CLI)
-
-```bash
-javac -cp "lib/*" src/**/*.java
-java  -cp "lib/*;src" view.LoginRegisterFrame
-```
-
----
-
-## 🧪 Pengujian
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Pengujian_**
 
 - File uji tersedia di folder `sample/`
 - Hasil enkripsi/dekripsi otomatis tersimpan di:
@@ -154,17 +115,8 @@ java  -cp "lib/*;src" view.LoginRegisterFrame
 
 ---
 
-## 📌 Catatan
+> ### **License**
 
-- Aplikasi ini ditujukan untuk **pembelajaran dan penelitian kriptografi**
-- Mendukung berbagai format file: **.txt, .pdf, .xlsx, dll**
+Aplikasi ini ditujukan untuk **_pembelajaran keamanan informasi & kriptografi file._** Mendukung berbagai format file **`.txt, .pdf, .xlsx, dll.`** Sourcecode **_Gratis ..,_** Digunakan dan dimodifikasi dalam **_tujuan pembelajaran._** Jika ingin Sourcecode full **silahkan Hubungi Author** Thanks ...
 
----
-
-## 👨‍💻 Author
-
-Dikembangkan untuk kebutuhan **Keamanan Informasi & Kriptografi File**.
-
----
-
-⭐ Jika project ini membantu, jangan lupa beri **star** di GitHub!
+Jika Anda merasa repositori ini bermanfaat, **_silakan beri bintang ⭐ di GitHub_**
