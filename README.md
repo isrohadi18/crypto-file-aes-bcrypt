@@ -1,18 +1,18 @@
 <h1 align="center">
-  <img src="src/assets/Icons-readme/Logo.svg" width="300px">
+  <img src="src/assets/icons/logo.svg" width="300px">
   <br>
   <b>CRYPTO - APP</b>
 </h1>
 
 <p align="center">
 <!-- JAVA -->
-  <img src="src/assets/icons-readme/Java.svg" height="20" />
+  <img src="src/assets/icons/java.svg" height="20" />
   <img src="https://img.shields.io/badge/Java-Swing%20GUI-orange?style=flat-square" />
   <!-- MYSQL -->
-  <img src="src/assets/icons-readme/Mysql.svg" height="20" />
+  <img src="src/assets/icons/mysql.svg" height="20" />
   <img src="https://img.shields.io/badge/MySQL-Database-darkblue?style=flat-square" />
     <!-- NETBEANS -->
-  <img src="src/assets/icons-readme/Netbeans.svg" height="20" />
+  <img src="src/assets/icons/netbeans.svg" height="20" />
   <img src="https://img.shields.io/badge/NetBeans-IDE-purple?style=flat-square" />
   <br>
   <!-- DETAIL APP -->
@@ -25,53 +25,48 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 
 ---
 
-## 🚀 Fitur Utama
+> ### **Fitur Utama**
 
-- 🔒 Enkripsi & Dekripsi File (AES-CBC)
-- 🔑 Hashing Password menggunakan **BCrypt**
-- 👤 Sistem Login & Register User
-- 🗂️ Manajemen File (upload, encrypt, decrypt)
-- 📊 Statistik & Grafik Performa AES
-- 📝 Logging hasil pengujian enkripsi
-- 💾 Integrasi Database MySQL
-
----
-
-## 🛠️ Teknologi & Tools
-
-**Bahasa & Platform**
-
-- Java (JDK 8+)
-- Java Swing (GUI Desktop)
-
-**Keamanan & Kriptografi**
-
-- AES (CBC Mode)
-- BCrypt (jbcrypt)
-
-**Database**
-
-- MySQL
-- JDBC (MySQL Connector)
-
-**Library Tambahan**
-
-- Apache POI (Excel handling)
-- iTextPDF (PDF handling)
-- JFreeChart (Grafik & Statistik)
-- Log4j (Logging)
+- Enkripsi & Dekripsi File (AES-CBC)
+- Hashing Password menggunakan **BCrypt**
+- Sistem Login & Register User
+- Manajemen File (upload, encrypt, decrypt)
+- Statistik & Grafik Performa AES
+- Logging hasil pengujian enkripsi
+- Integrasi Database MySQL
+- Dan banyak lagi fitur yang menarik
 
 ---
 
-## 🖼️ Dokumentasi Tampilan Aplikasi
+> ### **Library**
 
-| Fitur           | Preview                   |
-| --------------- | ------------------------- |
-| Login           | `src/assets/login.png`    |
-| Register        | `src/assets/register.png` |
-| Dashboard User  | `src/assets/user.png`     |
-| Admin Panel     | `src/assets/admin.png`    |
-| Logo / Branding | `src/assets/ALS.png`      |
+  <img src="https://img.shields.io/badge/commons--collections-4--4.4-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/commons--compress-1.21-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/itextpdf-5.5.13.2-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/jbcrypt-0.4-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/jcommon-1.0.16-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/jfreechart-1.5.0-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/log4j--api-2.13.3-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/log4j--core-2.13.3-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/mysql--connector--j-8.4.0-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/ooxml--schemas-1.4-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/poi-5.0.0-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/poi--ooxml-5.0.0-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/poi--ooxml--full-5.2.3-darkgrey?style=plasic" />
+  <img src="https://img.shields.io/badge/xmlbeans-5.1.1-darkgrey?style=plasic" />
+
+---
+
+> ### **Tampilan Aplikasi**
+
+| Fitur           | fungsi | Preview                                        |
+| --------------- | ------ | ---------------------------------------------- |
+| Login           |        | <img src="src/assets/frame/login.svg" />       |
+| Register        |        | <img src="src/assets/frame/register.svg" />    |
+| Dashboard User  |        | <img src="src/assets/frame/menutama.svg" />    |
+| Admin Panel     |        | <img src="src/assets/frame/muser.svg" />       |
+| Logo / Branding |        | <img src="src/assets/frame/performasta.svg" /> |
+| Logo / Branding |        | <img src="src/assets/frame/grafiksta.svg" />   |
 
 > 📌 Gambar dapat dilihat langsung pada folder `src/assets/`
 
