@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.32 64.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cedbe6;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #a5073e;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #2e90e8;
+      }
+
+      .cls-6 {
+        fill: #f1f6e2;
+      }
+
+      .cls-7 {
+        fill: #ea205e;
+      }
+
+      .cls-8 {
+        fill: #a1c535;
+      }
+
+      .cls-9 {
+        fill: #add439;
+      }
+
+      .cls-10 {
+        fill: #1b6ac6;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="m64.5,0h56.82v64.5H0C0,28.9,28.9,0,64.5,0Z"/>
+  <g id="logo">
+    <path class="cls-8" d="m75.44,7.69v9.5l-13.05,7.58-8.25-4.8,21.3-12.28Z"/>
+    <path class="cls-9" d="m96.74,19.97l-8.25,4.8-13.05-7.58V7.69l21.3,12.28h0Z"/>
+    <path class="cls-10" d="m96.74,44.53l-8.25-4.8v-14.97l8.25-4.8v24.56h0Z"/>
+    <path class="cls-4" d="m75.44,56.82v-9.5l13.05-7.58,8.25,4.8-21.3,12.28h0Z"/>
+    <path class="cls-7" d="m54.14,44.53l8.25-4.8,13.05,7.58v9.5l-21.3-12.28h0Z"/>
+    <path class="cls-2" d="m54.14,19.97l8.25,4.8v14.97l-8.25,4.8v-24.56h0Z"/>
+    <path class="cls-6" d="m62.39,24.77l13.05-7.58,13.05,7.58-13.05,7.48-13.05-7.48Z"/>
+    <path class="cls-1" d="m75.44,32.25l13.05-7.48v14.97l-13.05,7.58v-15.06Z"/>
+    <path class="cls-5" d="m62.39,24.77l13.05,7.48v15.06l-13.05-7.58v-14.97Z"/>
+  </g>
+</svg>
