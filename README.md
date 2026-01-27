@@ -40,6 +40,7 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 
 > ### **Library**
 
+<p>
 <img src="https://img.shields.io/badge/commons--collections-4--4.4-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/commons--compress-1.21-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/itextpdf-5.5.13.2-darkgrey?style=plasic" />
@@ -54,6 +55,7 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 <img src="https://img.shields.io/badge/poi--ooxml-5.0.0-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/poi--ooxml--full-5.2.3-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/xmlbeans-5.1.1-darkgrey?style=plasic" />
+</p>
 
 ---
 
