@@ -8,9 +8,6 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.nio.file.Files;
-import java.security.MessageDigest;
 import java.security.SecureRandom;
 import java.util.Arrays;
 
@@ -29,11 +26,6 @@ public class AESUtils {
         Files.write(outputFile.toPath(), decryptedBytes);
     }
 
-    // 🔐 Versi enkripsi byte[] dengan password
-    public static byte[] encrypt(byte[] data, String password) throws Exception {
-        SecretKeySpec secretKey = getKeyFromPassword(password);
-        Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
-
         byte[] iv = new byte[16];
         new SecureRandom().nextBytes(iv);
         IvParameterSpec ivParams = new IvParameterSpec(iv);
@@ -41,8 +33,7 @@ public class AESUtils {
         cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivParams);
         byte[] encrypted = cipher.doFinal(data);
 
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        outputStream.write(iv); // Simpan IV di awal
+        ByteArrayOu// Simpan IV di awal
         outputStream.write(encrypted);
         return outputStream.toByteArray();
     }
@@ -56,15 +47,12 @@ public class AESUtils {
         IvParameterSpec ivParams = new IvParameterSpec(iv);
 
         cipher.init(Cipher.DECRYPT_MODE, secretKey, ivParams);
-        return cipher.doFinal(encryptedData);
-    }
+        return ciphe
 
     private static SecretKeySpec getKeyFromPassword(String password) throws Exception {
         MessageDigest sha = MessageDigest.getInstance("SHA-256");
         byte[] key = password.getBytes("UTF-8");
         key = sha.digest(key);
-        return new SecretKeySpec(Arrays.copyOf(key, 16), "AES"); // 128-bit AES key
-    }
 
     // ✅ Tambahan untuk uji performa (pakai key dan IV manual)
     public static byte[] encryptAES_CBC(byte[] data, byte[] key, byte[] iv) throws Exception {
@@ -75,9 +63,7 @@ public class AESUtils {
         cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivParams);
         return cipher.doFinal(data);
     }
-
-    public static byte[] decryptAES_CBC(byte[] data, byte[] key, byte[] iv) throws Exception {
-        Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+etInstance("AES/CBC/PKCS5Padding");
         SecretKeySpec secretKey = new SecretKeySpec(key, "AES");
         IvParameterSpec ivParams = new IvParameterSpec(iv);
 
@@ -97,11 +83,7 @@ public class AESUtils {
     // 2. Generate IV (Initialization Vector) - Aman
     public static byte[] generateIV() {
         byte[] iv = new byte[16]; // 128-bit IV untuk AES
-        SecureRandom secureRandom = new SecureRandom();
-        secureRandom.nextBytes(iv); // Generate IV secara acak
-        return iv;
-    }
-
+        Sec
     // 3. Encrypt File
     public static void encryptForTest(File source, File dest, String password) throws Exception {
         byte[] key = Arrays.copyOf(password.getBytes("UTF-8"), 16); // fix length
@@ -118,10 +100,7 @@ public class AESUtils {
 
             CipherOutputStream cos = new CipherOutputStream(fos, cipher);
             byte[] buffer = new byte[4096];
-            int read;
-            while ((read = fis.read(buffer)) != -1) {
-                cos.write(buffer, 0, read);
-            }
+
             cos.close();
         }
     }
@@ -140,10 +119,6 @@ public class AESUtils {
             cipher.init(Cipher.DECRYPT_MODE, secretKey, ivSpec);
             try (FileOutputStream fos = new FileOutputStream(dest);
                  CipherInputStream cis = new CipherInputStream(fis, cipher)) {
-                byte[] buffer = new byte[4096];
-                int read;
-                while ((read = cis.read(buffer)) != -1) {
-                    fos.write(buffer, 0, read);
                 }
             }
         }

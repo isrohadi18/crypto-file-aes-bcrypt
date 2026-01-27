@@ -3,10 +3,6 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import javax.swing.border.EmptyBorder;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.File;
 import java.io.IOException;
 import config.DatabaseConnection;
@@ -38,8 +34,6 @@ public class LoginRegisterFrame extends JFrame {
     private final String REMEMBER_FILE_PATH = "config/remembered_user.txt";
 
     public LoginRegisterFrame() {
-        setTitle("Aplikasi Kriptografi File - AES 128 Bit");
-        setSize(900, 350);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -71,8 +65,6 @@ public class LoginRegisterFrame extends JFrame {
 
         ImageIcon icon = new ImageIcon(getClass().getResource("/assets/ALS.png"));
         JLabel lblLogo = new JLabel(icon, JLabel.CENTER);
-        lblLogo.setAlignmentX(Component.CENTER_ALIGNMENT);
-        lblLogo.setBorder(new EmptyBorder(40, 0, 15, 0));
 
         JLabel lbltittle = new JLabel("SELAMAT DATANG", JLabel.CENTER);
         lbltittle.setForeground(Color.WHITE);
@@ -85,8 +77,6 @@ public class LoginRegisterFrame extends JFrame {
         lblSubtittle.setFont(new Font("Arial", Font.BOLD, 12));
         lblSubtittle.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        leftPanel.add(lblLogo);
-        leftPanel.add(lbltittle);
         leftPanel.add(lblSubtittle);
 
         JPanel formPanel = new JPanel();
@@ -106,9 +96,6 @@ public class LoginRegisterFrame extends JFrame {
 
         lblLoginTitle.setIconTextGap(10); 
         lblLoginTitle.setFont(new Font("Segoe UI", Font.BOLD, 20));
-        lblLoginTitle.setForeground(new Color(121, 85, 72));
-        gbc.gridx = 0; gbc.gridy = 0; gbc.gridwidth = 2;
-        formPanel.add(lblLoginTitle, gbc);
 
         gbc.gridwidth = 1;
         gbc.gridx = 0; gbc.gridy = 1; 
@@ -146,10 +133,6 @@ public class LoginRegisterFrame extends JFrame {
         formPanel.add(chkRememberMe, gbc);
 
         gbc.gridx = 1; gbc.gridy++;
-        btnLogin = new JButton("LOGIN");
-        btnLogin.setBackground(new Color(121, 85, 72));
-        btnLogin.setForeground(Color.WHITE);
-        formPanel.add(btnLogin, gbc);
         
         btnLogin.addActionListener(e -> {
             String username = txtUsername.getText();

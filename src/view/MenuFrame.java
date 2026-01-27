@@ -197,10 +197,6 @@ public class MenuFrame extends JFrame {
 
             controller.showFileDetailsBeforeDecrypt();
 
-            int confirm = JOptionPane.showConfirmDialog(null, "Lanjutkan dekripsi file ini?", "Konfirmasi", JOptionPane.YES_NO_OPTION);
-            if (confirm == JOptionPane.YES_OPTION) {
-                controller.decryptFile();
-                refreshStatistikPanel();
             }
         });
 
@@ -234,23 +230,10 @@ public class MenuFrame extends JFrame {
                     JOptionPane.showMessageDialog(null, "Silakan pilih atau upload file terlebih dahulu sebelum preview.");
                     return;
                 }
-                
-                File file = new File(path);
-                if (file.exists() && Desktop.isDesktopSupported()) {
-                    Desktop.getDesktop().open(file);
-                } else {
-                    JOptionPane.showMessageDialog(null, "File tidak ditemukan atau tidak dapat dibuka di sistem ini!");
-                }
-            } catch (Exception ex) {
-                JOptionPane.showMessageDialog(null, "Gagal membuka file: " + ex.getMessage());
-            }
         });
 
         JButton btnReset = new JButton("RESET FORM");
         btnReset.addActionListener(e -> {
-            lblFilePath.setText("Belum ada file diupload");
-            txtPassword.setText("");
-            txtKeterangan.setText("");
             txtCari.setText("");        
             cmbStatus.setSelectedIndex(0); 
             txtPassword.requestFocus(); 
@@ -335,10 +318,6 @@ public class MenuFrame extends JFrame {
         });
 
         JButton btnLogout = new JButton("LOGOUT");
-        btnLogout.setBackground(new Color(255, 0, 0));
-        btnLogout.setForeground(Color.WHITE);
-        btnUserManagement.setFont(new Font("Arial", Font.BOLD, 12));
-        btnLogout.addActionListener(e -> {
             int confirm = JOptionPane.showConfirmDialog(this,
                 "Apakah Anda yakin ingin logout?", "Konfirmasi Logout",
                 JOptionPane.YES_NO_OPTION);
