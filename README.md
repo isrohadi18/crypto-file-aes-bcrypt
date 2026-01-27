@@ -1,18 +1,18 @@
 <h1 align="center">
-  <img src="src/assets/Icons-readme/logo.svg" width="300px">
+  <img src="src/assets/Icons-readme/Logo.svg" width="300px">
   <br>
   <b>CRYPTO - APP</b>
 </h1>
 
 <p align="center">
 <!-- JAVA -->
-  <img src="src/assets/icons-readme/java.svg" height="20" />
+  <img src="src/assets/icons-readme/Java.svg" height="20" />
   <img src="https://img.shields.io/badge/Java-Swing%20GUI-orange?style=flat-square" />
   <!-- MYSQL -->
-  <img src="src/assets/icons-readme/mysql.svg" height="20" />
+  <img src="src/assets/icons-readme/Mysql.svg" height="20" />
   <img src="https://img.shields.io/badge/MySQL-Database-darkblue?style=flat-square" />
     <!-- NETBEANS -->
-  <img src="src/assets/icons-readme/netbeans.svg" height="20" />
+  <img src="src/assets/icons-readme/Netbeans.svg" height="20" />
   <img src="https://img.shields.io/badge/NetBeans-IDE-purple?style=flat-square" />
   <br>
   <!-- DETAIL APP -->
