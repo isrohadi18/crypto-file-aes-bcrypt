@@ -19,8 +19,8 @@
   <img src="https://img.shields.io/github/last-commit/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
   <img src="https://img.shields.io/github/repo-size/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
   <a href="https://github.com/isrohadi18/crypto-file-aes-bcrypt/releases/latest">
-  <img src="https://img.shields.io/badge/Download-CyrptoFileAES.exe-blue?style=plasic">
-</a>&nbsp;
+  <img src="https://img.shields.io/badge/download-CyrptoFileAES.exe-blue?style=plasic">
+</a>
   <img src="https://img.shields.io/github/v/release/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-brown" />
   </p>
@@ -51,6 +51,7 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 <img src="https://img.shields.io/badge/jbcrypt-0.4-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/jcommon-1.0.16-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/jfreechart-1.5.0-darkgrey?style=plasic" />
+  &nbsp;
 <img src="https://img.shields.io/badge/log4j--api-2.13.3-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/log4j--core-2.13.3-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/mysql--connector--j-8.4.0-darkgrey?style=plasic" />
@@ -58,6 +59,7 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 <img src="https://img.shields.io/badge/poi-5.0.0-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/poi--ooxml-5.0.0-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/poi--ooxml--full-5.2.3-darkgrey?style=plasic" />
+  &nbsp;
 <img src="https://img.shields.io/badge/xmlbeans-5.1.1-darkgrey?style=plasic" />
 </p>
 
