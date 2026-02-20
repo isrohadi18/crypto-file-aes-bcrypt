@@ -18,7 +18,7 @@
   <!-- DETAIL APP -->
   <img src="https://img.shields.io/github/last-commit/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
   <img src="https://img.shields.io/github/repo-size/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
-  <img src="https://img.shields.io/github/downloads/isrohadi18/crypto-file-aes-bcrypt/CyrptoFileAES.exe/total" />&nbsp;
+  <img src="https://img.shields.io/github/downloads/isrohadi18/crypto-file-aes-bcrypt/releases/download/download/CyrptoFileAES.exe/total" />&nbsp;
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-brown" />
 </p>
 
