@@ -14,7 +14,7 @@
     <!-- NETBEANS -->
   <img src="src/assets/icons/netbeans.svg" height="20" />
   <img src="https://img.shields.io/badge/NetBeans-IDE-purple?style=flat-square" />
-  <p></p>
+  <br>
   <!-- DETAIL APP -->
   <img src="https://img.shields.io/github/last-commit/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
   <img src="https://img.shields.io/github/repo-size/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
