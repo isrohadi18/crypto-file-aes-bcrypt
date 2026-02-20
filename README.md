@@ -14,7 +14,7 @@
     <!-- NETBEANS -->
   <img src="src/assets/icons/netbeans.svg" height="20" />
   <img src="https://img.shields.io/badge/NetBeans-IDE-purple?style=flat-square" />
-  <br>
+  <p></p>
   <!-- DETAIL APP -->
   <img src="https://img.shields.io/github/last-commit/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
   <img src="https://img.shields.io/github/repo-size/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
@@ -51,7 +51,7 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 <img src="https://img.shields.io/badge/jbcrypt-0.4-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/jcommon-1.0.16-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/jfreechart-1.5.0-darkgrey?style=plasic" />
-  &nbsp;
+  <p></p>
 <img src="https://img.shields.io/badge/log4j--api-2.13.3-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/log4j--core-2.13.3-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/mysql--connector--j-8.4.0-darkgrey?style=plasic" />
@@ -59,7 +59,7 @@ Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan 
 <img src="https://img.shields.io/badge/poi-5.0.0-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/poi--ooxml-5.0.0-darkgrey?style=plasic" />
 <img src="https://img.shields.io/badge/poi--ooxml--full-5.2.3-darkgrey?style=plasic" />
-  &nbsp;
+  <p></p>
 <img src="https://img.shields.io/badge/xmlbeans-5.1.1-darkgrey?style=plasic" />
 </p>
 
