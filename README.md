@@ -16,10 +16,14 @@
   <img src="https://img.shields.io/badge/NetBeans-IDE-purple?style=flat-square" />
   <br>
   <!-- DETAIL APP -->
-  <img src="https://img.shields.io/github/last-commit/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
-  <img src="https://img.shields.io/github/repo-size/isrohadi18/crypto-file-aes-bcrypt" />&nbsp;
-  <img src="https://img.shields.io/github/downloads/isrohadi18/crypto-file-aes-bcrypt/releases/download/download/CyrptoFileAES.exe/total" />&nbsp;
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-brown" />
+<img src="https://img.shields.io/github/last-commit/isrohadi18/crypto-file-aes-bcrypt" />
+<img src="https://img.shields.io/github/repo-size/isrohadi18/crypto-file-aes-bcrypt" />
+<img src="https://img.shields.io/github/downloads/isrohadi18/crypto-file-aes-bcrypt/total" />
+<img src="https://img.shields.io/github/last-commit/isrohadi18/crypto-file-aes-bcrypt" />
+<img src="https://img.shields.io/github/repo-size/isrohadi18/crypto-file-aes-bcrypt" />
+<img src="https://img.shields.io/github/downloads/isrohadi18/crypto-file-aes-bcrypt/total" />
+<img src="https://img.shields.io/github/v/release/isrohadi18/crypto-file-aes-bcrypt" /> 
+<img src="https://img.shields.io/github/v/release/isrohadi18/crypto-file-aes-bcrypt" />
 </p>
 
 Aplikasi **keamanan file berbasis Java Desktop** yang berfungsi untuk melakukan **enkripsi dan dekripsi file menggunakan algoritma AES (Advanced Encryption Standard)** dengan mode **CBC**, serta **pengamanan password menggunakan BCrypt**. Aplikasi ini dilengkapi dengan **manajemen user, logging, dan statistik performa enkripsi**.
